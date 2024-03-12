@@ -1,4 +1,4 @@
-![results_level_1.png](../../Desktop/K6PerformanceAnalyzer/docs/images/results_level_1.png)![results_level_1.png](docs%2Fimages%2Fresults_level_1.png)
+![results_level_1.png](docs%2Fimages%2Fresults_level_1.png)
 
 # XK6-Dashboard
 
