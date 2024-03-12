@@ -26,7 +26,7 @@ services:
     platform: linux/amd64
     build:
       dockerfile: .docker/Dockerfile
-      context: ..
+      context: .
       target: dev
     ports:
       - "6565:6565"
