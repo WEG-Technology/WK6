@@ -1,34 +1,60 @@
-# xk6-Dashboard Installation and Usage
+![results_level_1.png](docs%2Fimages%2Fresults_level_1.png)
 
-This README file explains step by step how to install and use `xk6-dashboard` via Docker.
+# WK6-Dashboard
 
-## Prerequisites
+Create your performance testing environment in minutes with WK6-Dashboard using Docker.
 
-To install this, Docker and Docker Compose must be installed on your system. If these tools are not installed, please install Docker from the [official Docker website](https://docs.docker.com/get-docker/) and Docker Compose from [here](https://docs.docker.com/compose/install/).
+## ⚡️ Roadmap
+
+⭐️ We are continuously working to improve wk6-dashboard. We welcome feedback and contributions that help enhance
+functionality, usability, and documentation.
+
+- [x] Initial Docker and Docker Compose setup instructions
+- [ ] Improve error handling and remove panic occurrences
+- [ ] Introduce default exceptions for HTTP status codes
+- [ ] Enhance README documentation for better guidance
+- [ ] Implement request debugging features
+- [ ] Develop and include unit tests
+- [ ] Add caching mechanisms for test results
+- [ ] Support concurrent test execution
+- [ ] Standardize response data format
+- [ ] Ensure strict struct alignment for configuration files
+
+## Name
+
+wk6-Dashboard
+
+## Description
+
+Easily set up and monitor your K6 load testing results with a real-time dashboard, all through Docker.
 
 ## Installation
 
-1. **Prepare Docker Compose File:**
-   Place the project-specific `docker-compose.yml` file into the root directory of your project.
+Ensure Docker and Docker Compose are installed on your system. If not, install Docker from
+the [official Docker website](https://docs.docker.com/get-docker/) and Docker Compose
+from [here](https://docs.docker.com/compose/install/).
 
-2. **Start Services with Docker Compose:**
-   Start Docker Compose services by running the following command in your terminal or command prompt:
+To set up wk6-dashboard, execute:
+
 ```bash
-   docker compose up --build
+docker compose up --build
 ```
 
+## Usage
 
-# Using xk6-Dashboard
-
-To use xk6-dashboard, you can use the sample command below. This command allows you to run tests on a specific URI, level, and locale setting.
+To start a performance test with wk6-dashboard:
 
 ```bash
 docker-compose run k6 k6 run -e URI=https://example.com/ -e LEVEL=1 /application/app/main.js
 ```
 
-Monitoring Test Results
-To observe test results in real-time, navigate to the following address in your browser:
+To monitor test results, visit:
 http://localhost:3000/d/k6/k6-load-testing-results?orgId=1&refresh=5s
 
+This URL displays your test results on the wk6-dashboard and updates every 5 seconds.
 
-This address displays your test results through the xk6-dashboard and automatically refreshes every 5 seconds.
+## 📫 Contributing
+
+```TODO```
+
+
