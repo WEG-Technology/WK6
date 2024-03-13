@@ -1,12 +1,12 @@
 ![results_level_1.png](docs%2Fimages%2Fresults_level_1.png)
 
-# XK6-Dashboard
+# WK6-Dashboard
 
-Create your performance testing environment in minutes with XK6-Dashboard using Docker.
+Create your performance testing environment in minutes with WK6-Dashboard using Docker.
 
 ## ⚡️ Roadmap
 
-⭐️ We are continuously working to improve xk6-dashboard. We welcome feedback and contributions that help enhance
+⭐️ We are continuously working to improve wk6-dashboard. We welcome feedback and contributions that help enhance
 functionality, usability, and documentation.
 
 - [x] Initial Docker and Docker Compose setup instructions
@@ -22,7 +22,7 @@ functionality, usability, and documentation.
 
 ## Name
 
-xk6-Dashboard
+wk6-Dashboard
 
 ## Description
 
@@ -34,7 +34,7 @@ Ensure Docker and Docker Compose are installed on your system. If not, install D
 the [official Docker website](https://docs.docker.com/get-docker/) and Docker Compose
 from [here](https://docs.docker.com/compose/install/).
 
-To set up xk6-dashboard, execute:
+To set up wk6-dashboard, execute:
 
 ```bash
 docker compose up --build
@@ -42,7 +42,7 @@ docker compose up --build
 
 ## Usage
 
-To start a performance test with xk6-dashboard:
+To start a performance test with wk6-dashboard:
 
 ```bash
 docker-compose run k6 k6 run -e URI=https://example.com/ -e LEVEL=1 /application/app/main.js
@@ -51,7 +51,7 @@ docker-compose run k6 k6 run -e URI=https://example.com/ -e LEVEL=1 /application
 To monitor test results, visit:
 http://localhost:3000/d/k6/k6-load-testing-results?orgId=1&refresh=5s
 
-This URL displays your test results on the xk6-dashboard and updates every 5 seconds.
+This URL displays your test results on the wk6-dashboard and updates every 5 seconds.
 
 ## 📫 Contributing
 
