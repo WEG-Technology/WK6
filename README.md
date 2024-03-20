@@ -10,6 +10,7 @@ Create your performance testing environment in minutes with WK6-Dashboard using 
 functionality, usability, and documentation.
 
 - [x] Initial Docker and Docker Compose setup instructions
+- [ ] Kubernetes configuration
 - [ ] Update the `CONTRIBUTING.md`
 - [ ] Introduce default exceptions for HTTP status codes
 - [ ] Enhance README documentation for better guidance
