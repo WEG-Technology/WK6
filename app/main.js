@@ -5,7 +5,7 @@ import { config } from "./config.js";
 export const options = config;
 
 export default function () {
-    const headers = { "Content-Type": "application/json" }; // Örnek başlık ayarları
+    const headers = { "Content-Type": "application/json" };
 
     const res = http.get(__ENV.URI, { headers: headers });
 
