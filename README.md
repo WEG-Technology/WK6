@@ -130,5 +130,3 @@ This URL displays your test results on the wk6-dashboard and updates every 5 sec
 ## 📫 Contributing
 
 We welcome contributions! While we're still working on the detailed guidelines, you can get a preliminary idea by checking our [Contributing Guidelines](CONTRIBUTING.md). Please stay tuned for updates.
-
-
